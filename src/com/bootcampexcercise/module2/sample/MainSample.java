@@ -15,9 +15,9 @@ public class MainSample { // Class declaration
         j = 7; // Assign value to j
         int sum = i + j;
         // Print to show different between amend and summation function
-        System.out.println("Sum of i and j is" + i + j);
-        System.out.println("Sum of i and j is" + (i + j));
-        System.out.println("Sum of i and j is" + sum);
+        System.out.println("Sum of i and j is " + i + j);
+        System.out.println("Sum of i and j is " + (i + j));
+        System.out.println("Sum of i and j is " + sum);
 
         // Output of above 3 outs
         /*Sum of i and j is57
