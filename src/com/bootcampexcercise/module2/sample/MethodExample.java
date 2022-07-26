@@ -1,5 +1,10 @@
 package com.bootcampexcercise.module2.sample;
 
+/**
+ * @author disha.k.mehta
+ * @Purpose to explain method
+ */
+
 public class MethodExample {
     public static void main(String args[]) {
 
