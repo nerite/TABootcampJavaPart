@@ -1,7 +1,7 @@
 package com.bootcampexcercise.module2.activity;
 
 public class NumToWordsWithMethodCalling {
-    public static void main(String args[]) {
+    public static void main(String []args) {
         // Call method here
         numToWordsLogic(9);
     }
