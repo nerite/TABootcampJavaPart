@@ -1,4 +1,4 @@
-package com.bootcampexcercise.module5.sample;
+package com.bootcampexcercise.module5.sample.inheritance;
 
 /**
  * @author disha.k.mehta
