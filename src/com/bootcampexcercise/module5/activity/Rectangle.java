@@ -8,15 +8,15 @@ public class Rectangle extends Shape {
 
     public double calculateArea(double a, double b, double c) {
         this.a = a;
-        this.b = b; // rectangle length
-        this.c = c;  // rectangle width
+        this.b = b; // rectangle area length
+        this.c = c;  // rectangle area width
         return a = b * c;
     }
 
     public double calculatePerimeter(double a, double b, double c) {
         this.a = a;
-        this.b = b;
-        this.c = c;
+        this.b = b; // rectangle perimeter length
+        this.c = c; // rectangle perimeter width
         return a = ((b + c) * 2);
     }
 }
