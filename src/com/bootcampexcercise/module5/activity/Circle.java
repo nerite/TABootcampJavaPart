@@ -8,15 +8,15 @@ public class Circle extends Shape{
 
     public double calculateArea(double a, double b, double c) {
         this.a = a;
-        this.b = b;
-        this.c = c;
+        this.b = b; // circle area pi
+        this.c = c; // circle area radius
         return a = (b * c * c);
     }
 
     public double calculatePerimeter(double a, double b, double c) {
         this.a = a;
-        this.b = b;
-        this.c = c;
+        this.b = b; // circle perimeter pi
+        this.c = c; // circle perimeter diameter
         return a = (b * c);
     }
 }
