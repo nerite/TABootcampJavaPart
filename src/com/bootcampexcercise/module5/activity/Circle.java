@@ -6,17 +6,17 @@ public class Circle extends Shape{
     private double b;
     private double c;
 
-    public double calculateArea(double a, double b, double c) {
+    public double calculateArea(double a, double pi, double radius) {
         this.a = a;
-        this.b = b; // circle area pi
-        this.c = c; // circle area radius
-        return a = (b * c * c);
+        this.b = pi; // circle area pi
+        this.c = radius; // circle area radius
+        return a = (pi * radius * radius);
     }
 
-    public double calculatePerimeter(double a, double b, double c) {
+    public double calculatePerimeter(double a, double pi, double diameter) {
         this.a = a;
-        this.b = b; // circle perimeter pi
-        this.c = c; // circle perimeter diameter
-        return a = (b * c);
+        this.b = pi; // circle perimeter pi
+        this.c = diameter; // circle perimeter diameter
+        return a = (pi * diameter);
     }
 }
