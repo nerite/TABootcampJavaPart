@@ -6,17 +6,17 @@ public class Rectangle extends Shape {
     private double b;
     private double c;
 
-    public double calculateArea(double a, double b, double c) {
+    public double calculateArea(double a, double length, double width) {
         this.a = a;
-        this.b = b; // rectangle area length
-        this.c = c;  // rectangle area width
-        return a = b * c;
+        this.b = length; // rectangle area length
+        this.c = width;  // rectangle area width
+        return a = length * width;
     }
 
-    public double calculatePerimeter(double a, double b, double c) {
+    public double calculatePerimeter(double a, double length, double width) {
         this.a = a;
-        this.b = b; // rectangle perimeter length
-        this.c = c; // rectangle perimeter width
-        return a = ((b + c) * 2);
+        this.b = length; // rectangle perimeter length
+        this.c = width; // rectangle perimeter width
+        return a = ((length + width) * 2);
     }
 }
