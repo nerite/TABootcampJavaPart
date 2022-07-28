@@ -2,6 +2,10 @@ package com.bootcampexcercise.module7.sample;
 
 import java.util.Scanner;
 
+//Run this class with -ea option enabled in JVM arguments
+// Note
+// To Enable -ea right click on class workspace -> Modify run configuration ->
+// Click Modify options -> Add VM Options -> write -ea in field and apply
 public class AssertionSample2 {
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
