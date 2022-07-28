@@ -7,7 +7,9 @@ package com.bootcampexcercise.module9.sample;
 import junit.framework.TestCase;
 
 public class MyCalculatorTest extends TestCase {
+
     private MyCalculator theCalculator;
+
     protected void setUp() throws Exception {
         super.setUp();
         //	Initialize variables to be used here
