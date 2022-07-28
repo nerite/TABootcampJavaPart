@@ -1,4 +1,4 @@
-package com.bootcampexcercise.module5.sample;
+package com.bootcampexcercise.module5.sample.polymorphism;
 
 import com.bootcampexcercise.module5.sample.polymorphism.Person_P;
 import com.bootcampexcercise.module5.sample.polymorphism.Student_P;
@@ -22,6 +22,7 @@ public class ReferenceCastingSample {
         Student_P tempStudent = (Student_P) tempPerson; // convert person to student
         System.out.println("**********************************************");
         tempStudent.setGrade(11);
+        tempStudent.setSchool("New");
 
         System.out.println("Converted downcasting students attributes \n name: "
                 + tempStudent.getName() +
